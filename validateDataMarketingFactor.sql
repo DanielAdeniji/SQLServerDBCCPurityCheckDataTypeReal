@@ -68,15 +68,15 @@ where  (
 			AND 
 				(
 					(
-							  ( [Value] <  convert(real, [realNumber2Low]) )
-						OR    ( [Value] >  convert(real, [realNumber2High]) )
+							  ( [Value] <  [realNumber2Low] )
+						OR    ( [Value] >  [realNumber2High] )
 
 					)
 
 					AND
 					(
-							  ( [Value] <  convert(real, [realNumber1Low]) )
-						OR    ( [Value] >  convert(real, [realNumber1High]) )
+							  ( [Value] <  [realNumber1Low] )
+						OR    ( [Value] >  [realNumber1High] )
 
 					)
 

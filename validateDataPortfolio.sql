@@ -60,15 +60,15 @@ where  (
 			AND 
 				(
 					(
-							  ( [Holding] <  convert(real, [realNumber2Low]) )
-						OR    ( [Holding] >  convert(real, [realNumber2High]) )
+							  ( [Holding] <  [realNumber2Low] )
+						OR    ( [Holding] >  [realNumber2High] )
 
 					)
 
 					AND
 					(
-							  ( [Holding] <  convert(real, [realNumber1Low]) )
-						OR    ( [Holding] >  convert(real, [realNumber1High]) )
+							  ( [Holding] <  [realNumber1Low] )
+						OR    ( [Holding] >  [realNumber1High] )
 
 					)
 
